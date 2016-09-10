@@ -1,0 +1,5 @@
+baseurl = "http://carloswbarros.github.io"
+languageCode = "en-us"
+title = "Carlos Barros"
+theme = "anybodyhome"
+canonifyurls = true
