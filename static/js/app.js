@@ -83,10 +83,16 @@ $(document).ready(function(){
 
 	// Baffle
 	$('.baffle').appear(function() {
-		baffle('.baffle', {
-			characters: '█▓▒░█▓▒░█▓▒░<>/',
-			speed: 70 //50
-		}).reveal(900); //1000
+		// the setTimeout fixes the baffle scroll bug,
+		// executes the baffle as async
+		setTimeout( function(){
+
+			baffle('.baffle', {
+				characters: '█▓▒░█▓▒░█▓▒░<>/',
+				speed: 70 //50
+			}).reveal(900); //1000
+
+		}, 0);
 	});
 
 	// Scroll animations
