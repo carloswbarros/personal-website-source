@@ -1,0 +1,19 @@
+{
+  "name": "personal_website",
+  "description": "Personal Website",
+  "main": "",
+  "authors": [
+    "Carlos Barros"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "vex": "^2.3.4",
+    "jquery": "^3.1.0",
+    "animate.css": "^3.5.2",
+    "egg.js": "*",
+    "scrollup": "^2.4.1",
+    "particles.js": "^2.0.0"
+  }
+}

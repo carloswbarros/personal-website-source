@@ -1,0 +1,24 @@
+lang: en
+title: Carlos Barros - Personal Website
+
+menu_about: about
+menu_portfolio: portfolio
+menu_blog: blog
+menu_contact: contact
+
+about_title: "#about"
+about_description: >
+    Hi, my name is Carlos Jorge B. Weiss Barros, I'm from Viana do Castelo, Portugal and currently I'm taking a Computer Engineering course at
+about_description_school: <a href='http://www.estg.ipvc.pt/' target='_new'>Escola Superior de Tecnologia e Gestão</a>.
+about_description2: >
+    I have over 8 years of experience in web & software programming and I also have a huge interest in solving problems, innovate the world and I always like to follow the new technologies.
+about_description3: >
+    For more information about my programming knowledge visit my linkedin or github.
+
+portfolio_title: "#portfolio"
+portfolio_technologies: Used technologies
+portfolio_description: Description
+
+contact_title: "#contact"
+contact_description: <span class="baffle">Feel free to contact me via</span>
+contact_description2: <span class="baffle">or follow me on the social networks:</span>

@@ -1,0 +1,54 @@
+@import 'https://fonts.googleapis.com/css?family=Inconsolata:400,700';
+
+html, body{
+	height: 100%;
+	background-color: $white-color;
+	font-family: 'Inconsolata', monospace;
+	color: $black-color;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-weight: normal;
+	font-stretch: condensed;
+	font-smooth: always;
+}
+
+a{
+	color: $black-color;
+	text-decoration: none;
+	cursor: pointer;
+}
+p > a{
+	font-weight: bold;
+
+	&:hover{
+			text-decoration: underline;
+	}
+}
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+
+* {
+	cursor: default;
+	-webkit-user-select: none;
+}
+
+input,
+textarea {
+	-webkit-user-select: text;
+	cursor: text;
+}
+
+form,
+input,
+optgroup,
+select,
+textarea {
+	-webkit-user-select: text;
+	-webkit-app-region:  no-drag;
+}

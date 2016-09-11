@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<title>{% block title %}{% endblock %}</title>
+
+	<!-- Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Carlos Barros">
+	<meta name="description" content="Carlos Barros Personal Website">
+
+	<link rel="shortcut icon" type="image/png" href="{{ url_for('static', filename='img/favicon.png') }}"/>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/all.css') }}">
+</head>
+<body>
+	
+	<div class="wrapper">
+
+		<!-- Intro -->
+		{% include 'partials/intro.jinja2' %}
+
+		<!-- Content -->
+		{% block content %}{% endblock %}
+
+		<!-- Footer -->
+		{% include 'partials/footer.jinja2' %}
+
+	</div>
+
+	<!-- JS -->
+	{% include 'partials/google_analytics.jinja2' %}
+	<script src="{{ url_for('static', filename='js/all.js') }}" charset="utf-8"></script>
+</body>
+</html>

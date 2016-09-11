@@ -1,0 +1,16 @@
+{% extends 'layouts/main.jinja2' %}
+
+{% block title %}{{ lang.title }}{% endblock %}
+
+{% block content %}
+
+	<!-- About -->
+	{% include 'partials/about.jinja2' %}
+
+	<!-- Portfolio -->
+	{% include 'partials/portfolio.jinja2' %}
+
+	<!-- Contact -->
+	{% include 'partials/contact.jinja2' %}
+
+{% endblock %}

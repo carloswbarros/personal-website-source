@@ -1,0 +1,16 @@
+<section id="intro">
+	<div id="particles-js"></div>
+	<div class="container">
+		<h1 class="title logo">Carlos Barros</h1>
+		<ul class="menu">
+			<li><a href="#about">{{ lang.menu_about }}</a></li>
+			<li><a href="#portfolio">{{ lang.menu_portfolio }}</a></li>
+			<li><a href="{{ url_for('blog') }}">{{ lang.menu_blog }}</a></li>
+			<li><a href="#contact">{{ lang.menu_contact }}</a></li>
+		</ul>
+		<ul class="languages">
+			<li><a href="{{ url_for('index_pt') }}" {{ 'class="active"' if lang.lang == 'pt' else '' }}>português</a></li>
+			<li><a href="{{ url_for('index_en') }}" {{ 'class="active"' if lang.lang == 'en' else '' }}>english</a></li>
+		</ul>
+	</div>
+</section>

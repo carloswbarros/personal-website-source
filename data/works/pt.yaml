@@ -1,0 +1,12 @@
+
+all:
+    -
+        title: Freguesia da Seara
+        type: website
+        url: "http://freguesiadaseara.com/"
+        description: >
+            <p>Desenvolvimento de um CMS (Content Management System) capaz de administrar as páginas do site, as noticias, os inquéritos, o calendário de agendas, as publicidades do tecido empresarial searense, os jornais da freguesia, galeria de fotos/vídeos e recolher estatisticas dos visitantes do site.</p>
+
+            <p>O site também permite ver o tempo na Seara assim como as farmácias de serviço.</p>
+        image: junta_seara.png
+        skills: [PHP, Slim, CSS3, HTML5, Javascript]

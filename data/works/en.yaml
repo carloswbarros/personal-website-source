@@ -1,0 +1,9 @@
+
+all:
+    -
+        title: Freguesia da Seara
+        type: website
+        description: >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, est. Iste vitae, nihil dolores numquam perferendis et accusantium soluta libero beatae hic, perspiciatis, modi adipisci corporis. Nobis quo sunt, similique?
+        image: junta_seara.png
+        skills: [PHP, CSS3, HTML5, Javascript]

@@ -1,0 +1,52 @@
+<section id="about">
+	<div class="grid">
+		<div class="col-8-12">
+			<h1 class="title">{{ lang.about_title }}</h1>
+
+			<p>
+				<span class="baffle">{{ lang.about_description|safe }}</span>
+				{{ lang.about_description_school|safe }}
+			</p>
+			<p class="baffle">
+				{{ lang.about_description2|safe }}
+			</p>
+
+			<p class="baffle small">
+				{{ lang.about_description3|safe }}
+			</p>
+
+			<div class="btn-container">
+				<a href="{{ config.linkedin }}" target="_new" class="btn btn-secondary btn-linkedin">linkedin</a>
+				<a href="{{ config.github }}" target="_new" class="btn btn-primary btn-github">github</a>
+			</div>
+
+			<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+				<defs>
+					<filter id="github-filter">
+						<feTurbulence type="fractalNoise" baseFrequency="0.000001" numOctaves="1" result="warp"></feTurbulence>
+						<feOffset dx="-90" dy="-90" result="warpOffset" />
+						<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warpOffset" />
+					</filter>
+					<filter id="linkedin-filter">
+						<feTurbulence type="fractalNoise" baseFrequency="0.000001" numOctaves="1" result="warp"></feTurbulence>
+						<feOffset dx="-90" dy="-90" result="warpOffset" />
+						<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warpOffset" />
+					</filter>
+					<filter id="logo-filter">
+						<feTurbulence type="fractalNoise" baseFrequency="0.000001" numOctaves="1" result="warp"></feTurbulence>
+						<feOffset dx="-90" dy="-90" result="warpOffset" />
+						<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warpOffset" />
+					</filter>
+					<filter id="avatar-filter">
+						<feTurbulence type="fractalNoise" baseFrequency="0.000001" numOctaves="1" result="warp"></feTurbulence>
+						<feOffset dx="-90" dy="-90" result="warpOffset" />
+						<feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warpOffset" />
+					</filter>
+				</defs>
+			</svg>
+		</div>
+		<div class="avatar col-4-12">
+			<img src="{{ url_for('static', filename='img/avatar.png') }}" alt="Carlos Barros" class='avatar-img'>
+		</div>
+	</div>
+</section>

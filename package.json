@@ -1,0 +1,15 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "^6.0.0-9"
+  },
+  "author": "Carlos Barros",
+  "dependencies": {
+    "baffle": "^0.3.6",
+    "typeit": "^4.2.3"
+  }
+}
