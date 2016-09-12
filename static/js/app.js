@@ -84,12 +84,12 @@ $(document).ready(function(){
 	// Baffle
 	var b = baffle('.baffle', {
 	    characters: '█▓▒░█▓▒░█▓▒░<>/',
-	    speed: 70
+	    speed: 50
 	});
 
 	$('.baffle').appear(function() {
 	    setTimeout( function(){ // the timeout is me trying to async this
-	        b.reveal(900);
+	        b.reveal(1000);
 	    }, 0);
 	});
 
