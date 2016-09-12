@@ -82,15 +82,15 @@ $(document).ready(function(){
 	});
 
 	// Baffle
+	var b = baffle('.baffle', {
+	    characters: '█▓▒░█▓▒░█▓▒░<>/',
+	    speed: 70
+	});
+
 	$('.baffle').appear(function() {
-		setTimeout( function(){ // the timeout is me trying to async this
-
-			baffle('.baffle', {
-				characters: '█▓▒░█▓▒░█▓▒░<>/',
-				speed: 70 //50
-			}).reveal(900); //1000
-
-		}, 0);
+	    setTimeout( function(){ // the timeout is me trying to async this
+	        b.reveal(900);
+	    }, 0);
 	});
 
 	// Scroll animations
