@@ -83,9 +83,7 @@ $(document).ready(function(){
 
 	// Baffle
 	$('.baffle').appear(function() {
-		// the setTimeout fixes the baffle scroll bug,
-		// executes the baffle as async
-		setTimeout( function(){
+		setTimeout( function(){ // the timeout is me trying to async this
 
 			baffle('.baffle', {
 				characters: '█▓▒░█▓▒░█▓▒░<>/',
