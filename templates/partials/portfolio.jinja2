@@ -2,29 +2,28 @@
 	<div class="grid">
 		<h1 class="title">{{ lang.portfolio_title }}</h1>
 
-		<div class="col-1-4">
-
 			{% for work in works.all %}
-				<div class="thumbnail"
-					 style="background-image: url('{{ url_for('static', filename='works/' ~ work.image) }}');"
-					 data-title="{{ work.title }}"
-					 data-subtitle="{{ work.type }}"
-					 data-description="{{ work.description }}"
-					 data-url="{{ work.url }}"
-					 data-image="{{ url_for('static', filename='works/' ~ work.image) }}"
-					 data-skills="{% for skill in work.skills -%} <span>{{ skill }}</span> {%- endfor %}"
-					 data-langtechnologies="{{ lang.portfolio_technologies }}"
-					 data-langdescription="{{ lang.portfolio_description }}"
-					 >
-					<div class="overlay">
-						<!-- <div class="more">+</div> -->
-						<div class="info">
-							<h1>{{ work.title }}</h1>
-							<h2>{{ work.type }}</h2>
+				<div class="col-1-4">
+					<div class="thumbnail"
+						 style="background-image: url('{{ url_for('static', filename='works/' ~ work.image) }}');"
+						 data-title="{{ work.title }}"
+						 data-subtitle="{{ work.type }}"
+						 data-description="{{ work.description }}"
+						 data-url="{{ work.url }}"
+						 data-image="{{ url_for('static', filename='works/' ~ work.image) }}"
+						 data-skills="{% for skill in work.skills -%} <span>{{ skill }}</span> {%- endfor %}"
+						 data-langtechnologies="{{ lang.portfolio_technologies }}"
+						 data-langdescription="{{ lang.portfolio_description }}"
+						 >
+						<div class="overlay">
+							<div class="info">
+								<h1>{{ work.title }}</h1>
+								<h2>{{ work.type }}</h2>
+							</div>
 						</div>
 					</div>
 				</div>
 			{% endfor %}
-		</div>
+
 	</div>
 </section>

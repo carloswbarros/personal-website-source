@@ -5,8 +5,27 @@ all:
         type: website
         url: "http://freguesiadaseara.com/"
         description: >
-            <p>Desenvolvimento de um CMS (Content Management System) capaz de administrar as páginas do site, as noticias, os inquéritos, o calendário de agendas, as publicidades do tecido empresarial searense, os jornais da freguesia, galeria de fotos/vídeos e recolher estatisticas dos visitantes do site.</p>
-
-            <p>O site também permite ver o tempo na Seara assim como as farmácias de serviço.</p>
+            <p>Desenvolvimento de um site para a junta de freguesia da Seara. Consite num CMS (Content Management System) capaz de administrar as páginas do site, noticias, inquéritos, calendário de agendas, publicidades do tecido empresarial searense, jornais da freguesia, galeria de fotos/vídeos e recolher estatisticas dos visitantes do site.</p>
+            <p>O site também permite ver a metereologia da freguesia assim como as farmácias de serviço.</p>
         image: junta_seara.png
-        skills: [PHP, Slim, CSS3, HTML5, Javascript]
+        skills: [PHP, CSS3, HTML5, Javascript]
+
+    -
+        title: ACJardins
+        type: website
+        url: "http://acjardins.ch/website/"
+        description: >
+            <p>Desenvolvimento de um site para uma empresa, já com o design defenido por outra entidade.</p>
+            <p>Também foi desenvolvido uma página de administração para organizar e enviar fotos da galeria.</p>
+        image: acjardins.png
+        skills: [PHP, CSS3, HTML5, Javascript]
+
+    -
+        title: MapMil
+        type: android app
+        url: "https://www.igeoe.pt/index.php?id=24&n=154"
+        description: >
+            <p>Colaboração no desenvolvimento de uma aplicação em android para o Centro de Informação Geoespacial do Exército (CIGeoE).</p><br>
+            <p>A aplicação têm como missão disponibilizar informação geográfica para o Exército e outras entidades (Forças Armadas, Forças de Segurança e a comunidade civil). A aplicação permite visualizar cartografias militares offline, orientar a cartografia consoante o deslocamento, partilhar a georreferenciação e outros pontos, monitorização da geolocalização do dispositivo, criação e visualização de percursos, gravação automática de percursos e navegação.</p>
+        image: mapmil.png
+        skills: [Android, Javascript, OpenLayers]

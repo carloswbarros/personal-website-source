@@ -5,8 +5,27 @@ all:
         type: website
         url: "http://freguesiadaseara.com/"
         description: >
-            <p>Development of a CMS (Content Management System) capable to manage all the pages, news, surveys, calendar, ads , newspapers, photos & video gallery and collect statistics of all the visitors .</p>
-
-            <p>The site also lets you see the weather of Seara and the active pharmacies.</p>
+            <p>Development of website for the local town of Seara. It's a CMS (Content Management System) capable of managing all the pages, news, surveys, calendar, ads, newspapers, photos & videos of the gallery and collect statistics of all the visitors.</p>
+            <p>The site also lets you see the weather and the pharmacies in service.</p>
         image: junta_seara.png
-        skills: [PHP, Slim, CSS3, HTML5, Javascript]
+        skills: [PHP, CSS3, HTML5, Javascript]
+
+    -
+        title: ACJardins
+        type: website
+        url: "http://acjardins.ch/website/"
+        description: >
+            <p>Development of a website for a company, already with a design defined by other entity.</p>
+            <p>Also, it was developed an administration page to organize and upload photos of the gallery.</p>
+        image: acjardins.png
+        skills: [PHP, CSS3, HTML5, Javascript]
+
+    -
+        title: MapMil
+        type: android app
+        url: "https://www.igeoe.pt/index.php?id=24&n=154"
+        description: >
+            <p>Collaboration in the development of an android application for the Centro de Informação Geoespacial do Exército (CIGeoE).</p><br>
+            <p>The purpose of the application is to provide geographic information to the Army and other entities (Armed Forces, Security Forces and the civil community). The application allows the viewing of offline military cartography, mapping according to the user moviment, sharing geo-referencing markers, monitoring the geolocation of the device, creation and visualization of routes, automatic recording of routes and navigation.</p>
+        image: mapmil.png
+        skills: [Android, Javascript, OpenLayers]
