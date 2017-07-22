@@ -20,5 +20,7 @@ portfolio_technologies: Técnologias utilizadas
 portfolio_description: Descrição
 
 contact_title: "#contacto"
-contact_description: <span class="baffle">Sente-te à vontade para me contactar por</span>
+contact_description: <span class="baffle">Sente-te à vontade de me contactar por</span>
 contact_description2: <span class="baffle">ou seguir-me nas redes sociais:</span>
+
+more_images_link: "Mais imagens"

@@ -7,7 +7,8 @@ all:
         description: >
             <p>Desenvolvimento de um site para a junta de freguesia da Seara. Consite num CMS (Content Management System) capaz de administrar as páginas do site, noticias, inquéritos, calendário de agendas, publicidades do tecido empresarial searense, jornais da freguesia, galeria de fotos/vídeos e recolher estatisticas dos visitantes do site.</p>
             <p>O site também permite ver a metereologia da freguesia assim como as farmácias de serviço.</p>
-        image: junta_seara.png
+        image: junta_seara/logo.png
+        images: [ "junta_seara/homepage.png", "junta_seara/login.png" ]
         skills: [PHP, CSS3, HTML5, Javascript]
 
     -
@@ -17,15 +18,72 @@ all:
         description: >
             <p>Desenvolvimento de um site para uma empresa, já com o design defenido por outra entidade.</p>
             <p>Também foi desenvolvido uma página de administração para organizar e enviar fotos da galeria.</p>
-        image: acjardins.png
+        image: acjardins/logo.png
+        images: [ "acjardins/homepage_1.png", 
+            "acjardins/homepage_2.png", 
+            "acjardins/homepage_3.png", 
+            "acjardins/login.png" 
+        ]
         skills: [PHP, CSS3, HTML5, Javascript]
 
     -
         title: MapMil
-        type: android app
+        type: android application
         url: "https://www.igeoe.pt/index.php?id=24&n=154"
         description: >
             <p>Colaboração no desenvolvimento de uma aplicação em android para o Centro de Informação Geoespacial do Exército (CIGeoE).</p><br>
             <p>A aplicação têm como missão disponibilizar informação geográfica para o Exército e outras entidades (Forças Armadas, Forças de Segurança e a comunidade civil). A aplicação permite visualizar cartografias militares offline, orientar a cartografia consoante o deslocamento, partilhar a georreferenciação e outros pontos, monitorização da geolocalização do dispositivo, criação e visualização de percursos, gravação automática de percursos e navegação.</p>
-        image: mapmil.png
+        image: mapmil/logo.png
+        images: [ "mapmil/default.jpg", 
+            "mapmil/main_1.png",
+            "mapmil/main_2.png",
+            "mapmil/main_3.png"
+        ]
         skills: [Android, Javascript, OpenLayers]
+
+    -
+        title: Twitter Data Mining
+        type: web application
+        description: >
+            <p>Trabalho escolar para a disciplina de Aprendizagem Organizacional.</p><br>
+            <p>Aplicação para a web para recolher, analisar e guardar 'tweets' da rede social Twitter em tempo real, com análise de sentimentos do conteúdo do 'tweet' e localização geográfico de onde o 'tweet' foi publicado.</p>
+        image: twitter_data_mining/logo.png
+        images: [
+            "twitter_data_mining/main_1.png",
+            "twitter_data_mining/main_2.png",
+            "twitter_data_mining/main_3.png"
+        ]
+        skills: [Python, Tweepy, PHP, HTML5/JS/CSS3, Bootstrap, Leaflet, GoogleCharts, MySQL ]
+
+    -
+        title: Face Recognition
+        type: desktop application
+        description: >
+            <p>Trabalho escolar para a disciplina de Aprendizagem Organizacional.</p><br>
+            <p>Aplicação para reconhecer faces em tempo real utilizando uma webcam.</p>
+            <p>Também foi desenvolvido um sistema para criar e treinar um dataset para depois ser utilizado juntamente com a aplicação.</p><br>
+            <p>Foi também criado um API e uma aplicação web para também poder ser acedido num browser a partir da web.</p>
+        image: face_recognition/logo.png
+        images: [
+            "face_recognition/main.png"
+        ]
+        skills: [Python, OpenCV, Numpy, Flask, Javascript ]
+
+    -
+        title: UClockIT
+        type: web platform
+        description: >
+            <p>Projeto para a empresa 'Make It Special'.</p><br>
+            <p>Plataforma web para gerir relógios de ponto da Anviz Global de diversas empresas, a plataforma permite comunicar com os relógios de ponto por TCP/IP e enviar e receber diversos dados. </p><br>
+            <p>A plataforma permite gerir diversas empresas, relógios de ponto, utilizadores, cargos, departamentos, presenças, empregados, visualizar gráficos estatísticos e gerar relatórios dos empregados e da empresa.</p><br>
+            <p>Também foi criado uma livraria separadamente, para permitir a comunicação com os relógios de ponto.</p>
+        image: uclockit/logo.png
+        images: [
+            "uclockit/login.png",
+            "uclockit/dashboard_1.png",
+            "uclockit/attendances.png",
+            "uclockit/employees.png",
+            "uclockit/terminals.png",
+            "uclockit/terminal.png"
+        ]
+        skills: [Python, MySQL, Flask, SASS, Bootstrap, jQuery, HTML5/JS/CSS3, Git, Gulp, Jinja, NPM ]

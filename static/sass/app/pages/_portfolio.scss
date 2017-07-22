@@ -21,7 +21,7 @@ section#portfolio{
         background-size: cover;
         background-position: center center;
         position: relative;
-		border-radius: 2px;
+        border-radius: 2px;
 
         .overlay{
             background-color: $black-color;
@@ -32,7 +32,7 @@ section#portfolio{
             z-index: 20;
 	        transition: opacity 0.25s;
             opacity: 0;
-			border-radius: 2px;
+            border-radius: 2px;
 
             .more{
                 font-size: 72px;
@@ -44,23 +44,25 @@ section#portfolio{
             .info{
                 display: inline-block;
                 bottom: 0;
+                // text-align: center;
                 left: 0;
                 position: absolute;
                 width: 100%;
                 padding: 20px;
-				cursor: pointer;
+                cursor: pointer;
+                line-height: 25px;
 
                 h1{
-                    font-size: 24px;
+                    font-size: 18px; //24px
                     text-decoration: underline;
                     color: $white-color;
-                    margin-bottom: 10px;
+                    margin-bottom: 0px;
 					cursor: pointer;
                 }
 
                 h2{
 					cursor: pointer;
-                    font-size: 18px;
+                    font-size: 16px;
                     color: $white-color;
                 }
             }
@@ -93,6 +95,16 @@ section#portfolio{
         text-align: center;
     }
 
+    .image-container{
+        img{
+            border: 2px solid $black-color;
+        }
+
+        p{
+            font-size: 14px;
+        }
+    }
+
     .info{
 
         h1{
@@ -115,13 +127,18 @@ section#portfolio{
         span{
             background-color: $black-color;
             color: $white-color;
-            padding: 4px 12px;
+            padding: 0 12px;
             font-size: 12px;
-            margin: 0 6px 0 0;
+            margin: 0 6px 10px 0;
+            float: left;
         }
 
         p{
             font-size: 14px;
         }
     }
+}
+
+.mfp-wrap{
+    z-index: 99999 !important;
 }

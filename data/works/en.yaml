@@ -7,7 +7,8 @@ all:
         description: >
             <p>Development of website for the local town of Seara. It's a CMS (Content Management System) capable of managing all the pages, news, surveys, calendar, ads, newspapers, photos & videos of the gallery and collect statistics of all the visitors.</p>
             <p>The site also lets you see the weather and the pharmacies in service.</p>
-        image: junta_seara.png
+        image: junta_seara/logo.png
+        images: [ "junta_seara/homepage.png", "junta_seara/login.png" ]
         skills: [PHP, CSS3, HTML5, Javascript]
 
     -
@@ -17,15 +18,72 @@ all:
         description: >
             <p>Development of a website for a company, already with a design defined by other entity.</p>
             <p>Also, it was developed an administration page to organize and upload photos of the gallery.</p>
-        image: acjardins.png
+        image: acjardins/logo.png
+        images: [ "acjardins/homepage_1.png", 
+            "acjardins/homepage_2.png", 
+            "acjardins/homepage_3.png", 
+            "acjardins/login.png" 
+        ]
         skills: [PHP, CSS3, HTML5, Javascript]
 
     -
         title: MapMil
-        type: android app
+        type: android application
         url: "https://www.igeoe.pt/index.php?id=24&n=154"
         description: >
             <p>Collaboration in the development of an android application for the Centro de Informação Geoespacial do Exército (CIGeoE).</p><br>
             <p>The purpose of the application is to provide geographic information to the Army and other entities (Armed Forces, Security Forces and the civil community). The application allows the viewing of offline military cartography, mapping according to the user moviment, sharing geo-referencing markers, monitoring the geolocation of the device, creation and visualization of routes, automatic recording of routes and navigation.</p>
-        image: mapmil.png
+        image: mapmil/logo.png
+        images: [ "mapmil/default.jpg", 
+            "mapmil/main_1.png",
+            "mapmil/main_2.png",
+            "mapmil/main_3.png"
+        ]
         skills: [Android, Javascript, OpenLayers]
+
+    -
+        title: Twitter Data Mining
+        type: web application
+        description: >
+            <p>School work for the discipline Organizational Learning.</p><br>
+            <p>Web application to collect, analyze and save tweets from the Twitter social network in real time, with sentiment analysis of the tweet and geographic location from where the tweet was published.</p>
+        image: twitter_data_mining/logo.png
+        images: [
+            "twitter_data_mining/main_1.png",
+            "twitter_data_mining/main_2.png",
+            "twitter_data_mining/main_3.png"
+        ]
+        skills: [Python, Tweepy, PHP, Javascript, Bootstrap, Leaflet, GoogleCharts, MySQL ]
+
+    -
+        title: Face Recognition
+        type: desktop application
+        description: >
+            <p>School work for the discipline Organizational Learning.</p><br>
+            <p>Application to recognize faces in real time using a webcam.</p>
+            <p>A system for creating and training a dataset has also been developed and then used together with the application.</p><br>
+            <p>An API and web application were also created to be able to be accessed in a browser from the web.</p>
+        image: face_recognition/logo.png
+        images: [
+            "face_recognition/main.png"
+        ]
+        skills: [Python, OpenCV, Numpy, Flask, Javascript ]
+
+    -
+        title: UClockIT
+        type: web platform
+        description: >
+            <p>Project for the company 'Make It Special'.</p><br>
+            <p>Web platform to manage clock terminals made by Anviz Global of many companies, the platform allows you to communicate with TCP/IP and send and receive various data.</p><br>
+            <p>The platform allows you to manage various companies, time clocks, users, roles, departments, attendances, employees, view statistical graphs and generate employee and company reports.</p><br>
+            <p>A Library was also created separately to allow communication with the time clocks terminals.</p>
+        image: uclockit/logo.png
+        images: [
+            "uclockit/login.png",
+            "uclockit/dashboard_1.png",
+            "uclockit/attendances.png",
+            "uclockit/employees.png",
+            "uclockit/terminals.png",
+            "uclockit/terminal.png"
+        ]
+        skills: [Python, MySQL, Flask, SASS, Bootstrap, jQuery, HTML5/JS/CSS3, Git, Gulp, Jinja, NPM ]
